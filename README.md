@@ -51,7 +51,7 @@ pip install -e train/
 ---
 
 ## 📦 Usage
-If you need to verify whether the model is usable, you can run: `run_inference.py`
+If you need to verify whether the model is usable, you can run: `run_inference.py`. It reads the contents of the `image` folder to perform inference.
 
 ### Recording Topological Maps
 
