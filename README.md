@@ -51,6 +51,7 @@ pip install -e train/
 ---
 
 ## 📦 Usage
+If you need to verify whether the model is usable, you can run: `run_inference.py`
 
 ### Recording Topological Maps
 
