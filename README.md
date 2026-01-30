@@ -4,6 +4,7 @@
 
 [![ROS2](https://img.shields.io/badge/ROS2-Humble-blue.svg)](https://docs.ros.org/en/humble/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-green.svg)](https://www.python.org/)
+
 Deploying Vint for Navigation on the FreeAskWorld Simulator.
 A ROS2-based topological navigation system powered by [ViNT](https://general-navigation-models.github.io/vint/) for visual robot navigation with Unity simulator integration.
 
