@@ -1,0 +1,52 @@
+# Ignore everything by default
+/*
+
+# But allow these specific files and folders
+!.gitignore
+!run_vint_server.bash
+!run_inference.py
+!requirements.txt
+!README.md
+
+# Allow images folder (for run_inference.py)
+!images/
+!images/**
+
+# Allow ros2 folder: only vint_baseline.py
+!ros2/
+ros2/*
+!ros2/src/
+ros2/src/*
+!ros2/src/vln_connector/
+ros2/src/vln_connector/*
+!ros2/src/vln_connector/vln_connector/
+ros2/src/vln_connector/vln_connector/*
+!ros2/src/vln_connector/vln_connector/vint_baseline.py
+
+# Allow scripts folder
+!scripts/
+!scripts/**
+
+# Allow topomaps folder
+!topomaps/
+!topomaps/**
+
+# Allow model_weights folder: only .gitkeep (empty folder); exclude vint.pth
+!model_weights/
+model_weights/*
+!model_weights/.gitkeep
+model_weights/vint.pth
+
+# Exclude red-box items (not uploaded)
+webrtc_connector/
+__init__.py
+ros2.md
+ros2_agent_baseline.md
+ros2server.bash
+
+# Ignore Python cache everywhere
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python

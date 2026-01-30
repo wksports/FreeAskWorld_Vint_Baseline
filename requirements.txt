@@ -1,0 +1,22 @@
+torch>=2.0.0
+torchvision>=0.15.0
+efficientnet-pytorch>=0.7.1
+warmup-scheduler>=0.3
+# Transformer models
+timm>=0.9.0
+
+# Vision Transformer
+vit-pytorch>=0.35.0
+# Positional encodings
+positional-encodings[pytorch]>=6.0.0
+Pillow>=9.0.0
+opencv-python>=4.6.0
+numpy>=1.23.0,<2.0.0
+scipy>=1.10.0
+PyYAML>=6.0
+tqdm>=4.64.0
+typing-extensions>=4.5.0
+h5py>=3.6.0
+lmdb>=1.4.0
+matplotlib>=3.7.0
+
